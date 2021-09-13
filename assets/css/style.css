@@ -1,0 +1,21 @@
+body{
+	background-color: #f9f9f9;
+}
+
+#main{
+	max-width: 980px;
+}
+
+.list-pokemon .card{
+	cursor: pointer;
+	transition: .4s background-color;
+}
+
+.list-pokemon .card:hover{
+	background-color: #eee;
+}
+
+.list-pokemon a{
+	text-decoration: none;
+	color: inherit;
+}
